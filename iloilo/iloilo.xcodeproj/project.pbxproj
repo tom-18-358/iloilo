@@ -13,6 +13,9 @@
 		130B0D63205D072C00552576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130B0D62205D072C00552576 /* Assets.xcassets */; };
 		130B0D66205D072C00552576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130B0D64205D072C00552576 /* LaunchScreen.storyboard */; };
 		130B0D74205D166800552576 /* iloiloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D73205D166800552576 /* iloiloTests.swift */; };
+		130B0D7C205D6EBF00552576 /* Array+SafePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7B205D6EBF00552576 /* Array+SafePick.swift */; };
+		130B0D7E205E410500552576 /* ArrayExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */; };
+		130B0D7F205E538300552576 /* Array+SafePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7B205D6EBF00552576 /* Array+SafePick.swift */; };
 		52B600569F06D61A61DC165E /* Pods_iloilo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1096844A76004367D7450FA4 /* Pods_iloilo.framework */; };
 		F1B54592224FAF1398625A51 /* Pods_iloilo_iloiloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3F93132C8387A35E175649 /* Pods_iloilo_iloiloTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +43,8 @@
 		130B0D71205D166800552576 /* iloiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iloiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130B0D73205D166800552576 /* iloiloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iloiloTests.swift; sourceTree = "<group>"; };
 		130B0D75205D166800552576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130B0D7B205D6EBF00552576 /* Array+SafePick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SafePick.swift"; sourceTree = "<group>"; };
+		130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionSpec.swift; sourceTree = "<group>"; };
 		291C3D862320E2C16B9DC8F6 /* Pods-iloilo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo/Pods-iloilo.release.xcconfig"; sourceTree = "<group>"; };
 		AE7B71230DB449CD79DCE770 /* Pods-iloilo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo/Pods-iloilo.debug.xcconfig"; sourceTree = "<group>"; };
 		D5EAFCEF316857FB06481086 /* Pods-iloilo-iloiloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo-iloiloTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo-iloiloTests/Pods-iloilo-iloiloTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +96,7 @@
 			children = (
 				130B0D5B205D072C00552576 /* AppDelegate.swift */,
 				130B0D5D205D072C00552576 /* ViewController.swift */,
+				130B0D7B205D6EBF00552576 /* Array+SafePick.swift */,
 				130B0D5F205D072C00552576 /* Main.storyboard */,
 				130B0D62205D072C00552576 /* Assets.xcassets */,
 				130B0D64205D072C00552576 /* LaunchScreen.storyboard */,
@@ -103,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				130B0D73205D166800552576 /* iloiloTests.swift */,
+				130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */,
 				130B0D75205D166800552576 /* Info.plist */,
 			);
 			path = iloiloTests;
@@ -340,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				130B0D5E205D072C00552576 /* ViewController.swift in Sources */,
+				130B0D7C205D6EBF00552576 /* Array+SafePick.swift in Sources */,
 				130B0D5C205D072C00552576 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130B0D7E205E410500552576 /* ArrayExtensionSpec.swift in Sources */,
+				130B0D7F205E538300552576 /* Array+SafePick.swift in Sources */,
 				130B0D74205D166800552576 /* iloiloTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
