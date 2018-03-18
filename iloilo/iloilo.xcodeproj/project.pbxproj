@@ -12,9 +12,27 @@
 		130B0D61205D072C00552576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130B0D5F205D072C00552576 /* Main.storyboard */; };
 		130B0D63205D072C00552576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130B0D62205D072C00552576 /* Assets.xcassets */; };
 		130B0D66205D072C00552576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130B0D64205D072C00552576 /* LaunchScreen.storyboard */; };
+		130B0D74205D166800552576 /* iloiloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D73205D166800552576 /* iloiloTests.swift */; };
+		130B0D7C205D6EBF00552576 /* Array+SafePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7B205D6EBF00552576 /* Array+SafePick.swift */; };
+		130B0D7E205E410500552576 /* ArrayExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */; };
+		130B0D7F205E538300552576 /* Array+SafePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7B205D6EBF00552576 /* Array+SafePick.swift */; };
+		52B600569F06D61A61DC165E /* Pods_iloilo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1096844A76004367D7450FA4 /* Pods_iloilo.framework */; };
+		F1B54592224FAF1398625A51 /* Pods_iloilo_iloiloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3F93132C8387A35E175649 /* Pods_iloilo_iloiloTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		130B0D76205D166800552576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130B0D50205D072C00552576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 130B0D57205D072C00552576;
+			remoteInfo = iloilo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0A3F93132C8387A35E175649 /* Pods_iloilo_iloiloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloilo_iloiloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1096844A76004367D7450FA4 /* Pods_iloilo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloilo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		130B0D58205D072C00552576 /* iloilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iloilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		130B0D5B205D072C00552576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		130B0D5D205D072C00552576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,15 @@
 		130B0D62205D072C00552576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		130B0D65205D072C00552576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		130B0D67205D072C00552576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130B0D71205D166800552576 /* iloiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iloiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		130B0D73205D166800552576 /* iloiloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iloiloTests.swift; sourceTree = "<group>"; };
+		130B0D75205D166800552576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130B0D7B205D6EBF00552576 /* Array+SafePick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SafePick.swift"; sourceTree = "<group>"; };
+		130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionSpec.swift; sourceTree = "<group>"; };
+		291C3D862320E2C16B9DC8F6 /* Pods-iloilo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo/Pods-iloilo.release.xcconfig"; sourceTree = "<group>"; };
+		AE7B71230DB449CD79DCE770 /* Pods-iloilo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo/Pods-iloilo.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EAFCEF316857FB06481086 /* Pods-iloilo-iloiloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo-iloiloTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo-iloiloTests/Pods-iloilo-iloiloTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4CCEBE6145C0DF7D691B9F7 /* Pods-iloilo-iloiloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo-iloiloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo-iloiloTests/Pods-iloilo-iloiloTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +56,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B600569F06D61A61DC165E /* Pods_iloilo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130B0D6E205D166800552576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B54592224FAF1398625A51 /* Pods_iloilo_iloiloTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				130B0D5A205D072C00552576 /* iloilo */,
+				130B0D72205D166800552576 /* iloiloTests */,
 				130B0D59205D072C00552576 /* Products */,
+				2D9BA5ADFBBD6A2EFC5AE2DE /* Pods */,
+				D4FEBB0452D5429355784C16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				130B0D58205D072C00552576 /* iloilo.app */,
+				130B0D71205D166800552576 /* iloiloTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +96,43 @@
 			children = (
 				130B0D5B205D072C00552576 /* AppDelegate.swift */,
 				130B0D5D205D072C00552576 /* ViewController.swift */,
+				130B0D7B205D6EBF00552576 /* Array+SafePick.swift */,
 				130B0D5F205D072C00552576 /* Main.storyboard */,
 				130B0D62205D072C00552576 /* Assets.xcassets */,
 				130B0D64205D072C00552576 /* LaunchScreen.storyboard */,
 				130B0D67205D072C00552576 /* Info.plist */,
 			);
 			path = iloilo;
+			sourceTree = "<group>";
+		};
+		130B0D72205D166800552576 /* iloiloTests */ = {
+			isa = PBXGroup;
+			children = (
+				130B0D73205D166800552576 /* iloiloTests.swift */,
+				130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */,
+				130B0D75205D166800552576 /* Info.plist */,
+			);
+			path = iloiloTests;
+			sourceTree = "<group>";
+		};
+		2D9BA5ADFBBD6A2EFC5AE2DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE7B71230DB449CD79DCE770 /* Pods-iloilo.debug.xcconfig */,
+				291C3D862320E2C16B9DC8F6 /* Pods-iloilo.release.xcconfig */,
+				E4CCEBE6145C0DF7D691B9F7 /* Pods-iloilo-iloiloTests.debug.xcconfig */,
+				D5EAFCEF316857FB06481086 /* Pods-iloilo-iloiloTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4FEBB0452D5429355784C16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1096844A76004367D7450FA4 /* Pods_iloilo.framework */,
+				0A3F93132C8387A35E175649 /* Pods_iloilo_iloiloTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 130B0D6A205D072C00552576 /* Build configuration list for PBXNativeTarget "iloilo" */;
 			buildPhases = (
+				A9BCFB632DEF99EA4A1E724B /* [CP] Check Pods Manifest.lock */,
 				130B0D54205D072C00552576 /* Sources */,
 				130B0D55205D072C00552576 /* Frameworks */,
 				130B0D56205D072C00552576 /* Resources */,
+				651149928C36EEF943D890C5 /* [CP] Embed Pods Frameworks */,
+				C76F51BBB019F3AE09A86008 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +157,27 @@
 			productName = iloilo;
 			productReference = 130B0D58205D072C00552576 /* iloilo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		130B0D70205D166800552576 /* iloiloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130B0D7A205D166800552576 /* Build configuration list for PBXNativeTarget "iloiloTests" */;
+			buildPhases = (
+				C4B99ACF44A19A941F478B6C /* [CP] Check Pods Manifest.lock */,
+				130B0D6D205D166800552576 /* Sources */,
+				130B0D6E205D166800552576 /* Frameworks */,
+				130B0D6F205D166800552576 /* Resources */,
+				E00A24761C4819D16796B835 /* [CP] Embed Pods Frameworks */,
+				987DC40D87015A0D6413C810 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130B0D77205D166800552576 /* PBXTargetDependency */,
+			);
+			name = iloiloTests;
+			productName = iloiloTests;
+			productReference = 130B0D71205D166800552576 /* iloiloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +192,11 @@
 					130B0D57205D072C00552576 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					130B0D70205D166800552576 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 130B0D57205D072C00552576;
 					};
 				};
 			};
@@ -114,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				130B0D57205D072C00552576 /* iloilo */,
+				130B0D70205D166800552576 /* iloiloTests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,7 +230,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		130B0D6F205D166800552576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		651149928C36EEF943D890C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iloilo/Pods-iloilo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		987DC40D87015A0D6413C810 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iloilo-iloiloTests/Pods-iloilo-iloiloTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BCFB632DEF99EA4A1E724B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iloilo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B99ACF44A19A941F478B6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iloilo-iloiloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76F51BBB019F3AE09A86008 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iloilo/Pods-iloilo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00A24761C4819D16796B835 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iloilo-iloiloTests/Pods-iloilo-iloiloTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iloilo-iloiloTests/Pods-iloilo-iloiloTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		130B0D54205D072C00552576 /* Sources */ = {
@@ -137,11 +347,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				130B0D5E205D072C00552576 /* ViewController.swift in Sources */,
+				130B0D7C205D6EBF00552576 /* Array+SafePick.swift in Sources */,
 				130B0D5C205D072C00552576 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		130B0D6D205D166800552576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130B0D7E205E410500552576 /* ArrayExtensionSpec.swift in Sources */,
+				130B0D7F205E538300552576 /* Array+SafePick.swift in Sources */,
+				130B0D74205D166800552576 /* iloiloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130B0D77205D166800552576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 130B0D57205D072C00552576 /* iloilo */;
+			targetProxy = 130B0D76205D166800552576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		130B0D5F205D072C00552576 /* Main.storyboard */ = {
@@ -272,6 +501,7 @@
 		};
 		130B0D6B205D072C00552576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7B71230DB449CD79DCE770 /* Pods-iloilo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +517,7 @@
 		};
 		130B0D6C205D072C00552576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291C3D862320E2C16B9DC8F6 /* Pods-iloilo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +528,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		130B0D78205D166800552576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4CCEBE6145C0DF7D691B9F7 /* Pods-iloilo-iloiloTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iloiloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tom-18-358.iloiloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iloilo.app/iloilo";
+			};
+			name = Debug;
+		};
+		130B0D79205D166800552576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EAFCEF316857FB06481086 /* Pods-iloilo-iloiloTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iloiloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tom-18-358.iloiloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iloilo.app/iloilo";
 			};
 			name = Release;
 		};
@@ -317,6 +580,15 @@
 			buildConfigurations = (
 				130B0D6B205D072C00552576 /* Debug */,
 				130B0D6C205D072C00552576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130B0D7A205D166800552576 /* Build configuration list for PBXNativeTarget "iloiloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130B0D78205D166800552576 /* Debug */,
+				130B0D79205D166800552576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
