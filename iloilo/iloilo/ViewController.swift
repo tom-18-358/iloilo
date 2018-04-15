@@ -12,10 +12,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var formTextField: UITextField!
+    @IBOutlet weak var confirmButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        resultLabel.set(accessibilityIDType: .resultLabel)
+        formTextField.set(accessibilityIDType: .formTextField)
+        confirmButton.set(accessibilityIDType: .confirmButton)
     }
 
     override func didReceiveMemoryWarning() {

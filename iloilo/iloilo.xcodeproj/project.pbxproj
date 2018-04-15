@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1304B0102083266A0073BDC0 /* UIAccessibilityIdentification+AccessibilityId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1304B00F2083266A0073BDC0 /* UIAccessibilityIdentification+AccessibilityId.swift */; };
+		1304B014208327620073BDC0 /* UIAccessibilityIdentification+AccessibilityId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1304B00F2083266A0073BDC0 /* UIAccessibilityIdentification+AccessibilityId.swift */; };
 		130B0D5C205D072C00552576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D5B205D072C00552576 /* AppDelegate.swift */; };
 		130B0D5E205D072C00552576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D5D205D072C00552576 /* ViewController.swift */; };
 		130B0D61205D072C00552576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130B0D5F205D072C00552576 /* Main.storyboard */; };
@@ -16,6 +18,7 @@
 		130B0D7C205D6EBF00552576 /* Array+SafePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7B205D6EBF00552576 /* Array+SafePick.swift */; };
 		130B0D7E205E410500552576 /* ArrayExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */; };
 		130B0D7F205E538300552576 /* Array+SafePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7B205D6EBF00552576 /* Array+SafePick.swift */; };
+		130B0D81205E6D5800552576 /* FormUISpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D80205E6D5800552576 /* FormUISpec.swift */; };
 		29D0D1262775C7F775ED7727 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = 7E2E183270B5E0C2E458E7F1 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		52B600569F06D61A61DC165E /* Pods_iloilo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1096844A76004367D7450FA4 /* Pods_iloilo.framework */; };
 		7E5492311F30E21CF12CAB86 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BAD52B15847CEF6BA19B9 /* EarlGrey.swift */; };
@@ -50,6 +53,7 @@
 /* Begin PBXFileReference section */
 		0A3F93132C8387A35E175649 /* Pods_iloilo_iloiloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloilo_iloiloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1096844A76004367D7450FA4 /* Pods_iloilo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloilo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1304B00F2083266A0073BDC0 /* UIAccessibilityIdentification+AccessibilityId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAccessibilityIdentification+AccessibilityId.swift"; sourceTree = "<group>"; };
 		130B0D58205D072C00552576 /* iloilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iloilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		130B0D5B205D072C00552576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		130B0D5D205D072C00552576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 		130B0D75205D166800552576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		130B0D7B205D6EBF00552576 /* Array+SafePick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SafePick.swift"; sourceTree = "<group>"; };
 		130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionSpec.swift; sourceTree = "<group>"; };
+		130B0D80205E6D5800552576 /* FormUISpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUISpec.swift; sourceTree = "<group>"; };
 		291C3D862320E2C16B9DC8F6 /* Pods-iloilo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo/Pods-iloilo.release.xcconfig"; sourceTree = "<group>"; };
 		3B2BAD52B15847CEF6BA19B9 /* EarlGrey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
 		7E2E183270B5E0C2E458E7F1 /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = Pods/EarlGrey/EarlGrey/EarlGrey.framework; sourceTree = SOURCE_ROOT; };
@@ -91,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1304B013208326A60073BDC0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1304B00F2083266A0073BDC0 /* UIAccessibilityIdentification+AccessibilityId.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		130B0D4F205D072C00552576 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +130,7 @@
 				130B0D5B205D072C00552576 /* AppDelegate.swift */,
 				130B0D5D205D072C00552576 /* ViewController.swift */,
 				130B0D7B205D6EBF00552576 /* Array+SafePick.swift */,
+				1304B013208326A60073BDC0 /* Extension */,
 				130B0D5F205D072C00552576 /* Main.storyboard */,
 				130B0D62205D072C00552576 /* Assets.xcassets */,
 				130B0D64205D072C00552576 /* LaunchScreen.storyboard */,
@@ -130,6 +144,7 @@
 			children = (
 				130B0D73205D166800552576 /* iloiloTests.swift */,
 				130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */,
+				130B0D80205E6D5800552576 /* FormUISpec.swift */,
 				130B0D75205D166800552576 /* Info.plist */,
 				3B2BAD52B15847CEF6BA19B9 /* EarlGrey.swift */,
 			);
@@ -371,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1304B0102083266A0073BDC0 /* UIAccessibilityIdentification+AccessibilityId.swift in Sources */,
 				130B0D5E205D072C00552576 /* ViewController.swift in Sources */,
 				130B0D7C205D6EBF00552576 /* Array+SafePick.swift in Sources */,
 				130B0D5C205D072C00552576 /* AppDelegate.swift in Sources */,
@@ -381,7 +397,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130B0D81205E6D5800552576 /* FormUISpec.swift in Sources */,
 				130B0D7E205E410500552576 /* ArrayExtensionSpec.swift in Sources */,
+				1304B014208327620073BDC0 /* UIAccessibilityIdentification+AccessibilityId.swift in Sources */,
 				130B0D7F205E538300552576 /* Array+SafePick.swift in Sources */,
 				130B0D74205D166800552576 /* iloiloTests.swift in Sources */,
 				7E5492311F30E21CF12CAB86 /* EarlGrey.swift in Sources */,
