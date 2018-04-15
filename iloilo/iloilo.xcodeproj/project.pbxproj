@@ -16,8 +16,11 @@
 		130B0D7C205D6EBF00552576 /* Array+SafePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7B205D6EBF00552576 /* Array+SafePick.swift */; };
 		130B0D7E205E410500552576 /* ArrayExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */; };
 		130B0D7F205E538300552576 /* Array+SafePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B0D7B205D6EBF00552576 /* Array+SafePick.swift */; };
+		29D0D1262775C7F775ED7727 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = 7E2E183270B5E0C2E458E7F1 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		52B600569F06D61A61DC165E /* Pods_iloilo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1096844A76004367D7450FA4 /* Pods_iloilo.framework */; };
+		7E5492311F30E21CF12CAB86 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BAD52B15847CEF6BA19B9 /* EarlGrey.swift */; };
 		F1B54592224FAF1398625A51 /* Pods_iloilo_iloiloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3F93132C8387A35E175649 /* Pods_iloilo_iloiloTests.framework */; };
+		F2D5DACADF8E783CA5BFA6D8 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2E183270B5E0C2E458E7F1 /* EarlGrey.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,20 @@
 			remoteInfo = iloilo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		417F9F1964D09C15FFB67B5A /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				29D0D1262775C7F775ED7727 /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A3F93132C8387A35E175649 /* Pods_iloilo_iloiloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloilo_iloiloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +63,8 @@
 		130B0D7B205D6EBF00552576 /* Array+SafePick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SafePick.swift"; sourceTree = "<group>"; };
 		130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionSpec.swift; sourceTree = "<group>"; };
 		291C3D862320E2C16B9DC8F6 /* Pods-iloilo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo/Pods-iloilo.release.xcconfig"; sourceTree = "<group>"; };
+		3B2BAD52B15847CEF6BA19B9 /* EarlGrey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		7E2E183270B5E0C2E458E7F1 /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = Pods/EarlGrey/EarlGrey/EarlGrey.framework; sourceTree = SOURCE_ROOT; };
 		AE7B71230DB449CD79DCE770 /* Pods-iloilo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo/Pods-iloilo.debug.xcconfig"; sourceTree = "<group>"; };
 		D5EAFCEF316857FB06481086 /* Pods-iloilo-iloiloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo-iloiloTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo-iloiloTests/Pods-iloilo-iloiloTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4CCEBE6145C0DF7D691B9F7 /* Pods-iloilo-iloiloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloilo-iloiloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iloilo-iloiloTests/Pods-iloilo-iloiloTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1B54592224FAF1398625A51 /* Pods_iloilo_iloiloTests.framework in Frameworks */,
+				F2D5DACADF8E783CA5BFA6D8 /* EarlGrey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +131,7 @@
 				130B0D73205D166800552576 /* iloiloTests.swift */,
 				130B0D7D205E410500552576 /* ArrayExtensionSpec.swift */,
 				130B0D75205D166800552576 /* Info.plist */,
+				3B2BAD52B15847CEF6BA19B9 /* EarlGrey.swift */,
 			);
 			path = iloiloTests;
 			sourceTree = "<group>";
@@ -131,6 +152,7 @@
 			children = (
 				1096844A76004367D7450FA4 /* Pods_iloilo.framework */,
 				0A3F93132C8387A35E175649 /* Pods_iloilo_iloiloTests.framework */,
+				7E2E183270B5E0C2E458E7F1 /* EarlGrey.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,6 +190,7 @@
 				130B0D6F205D166800552576 /* Resources */,
 				E00A24761C4819D16796B835 /* [CP] Embed Pods Frameworks */,
 				987DC40D87015A0D6413C810 /* [CP] Copy Pods Resources */,
+				417F9F1964D09C15FFB67B5A /* EarlGrey Copy Files */,
 			);
 			buildRules = (
 			);
@@ -361,6 +384,7 @@
 				130B0D7E205E410500552576 /* ArrayExtensionSpec.swift in Sources */,
 				130B0D7F205E538300552576 /* Array+SafePick.swift in Sources */,
 				130B0D74205D166800552576 /* iloiloTests.swift in Sources */,
+				7E5492311F30E21CF12CAB86 /* EarlGrey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
